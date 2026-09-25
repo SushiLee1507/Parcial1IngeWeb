@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulario de contacto y preguntas frecuentes sobre IA predictiva y prescriptiva.">
+  <meta name="author" content="Víctor Lee">
+  <title>Contacto | AnticipIA</title>
+  <link rel="icon" href="../img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="encabezado">
+    <div class="contenedor">
+      <a class="marca" href="../index.html" aria-label="AnticipIA, ir al inicio">
+        <img src="../img/logo.svg" alt="Logo de AnticipIA" width="46" height="46">
+        <div>
+          <strong>AnticipIA</strong>
+          <span>IA predictiva y prescriptiva</span>
+        </div>
+      </a>
+      <nav class="menu" aria-label="Menú principal">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="portada interna durazno">
+      <div class="contenedor">
+        <div>
+          <p class="migas"><a href="../index.html">Inicio</a> / Contacto</p>
+          <span class="etiqueta">Contacto</span>
+          <h1>¿Tienes preguntas sobre IA? Escríbenos</h1>
+          <p class="intro">Completa el formulario para enviarnos tus dudas, sugerencias o ideas sobre la inteligencia artificial predictiva y prescriptiva.</p>
+        </div>
+        <figure>
+          <img src="../img/contacto.svg" alt="Ilustración de un sobre de correo y burbujas de conversación" width="520" height="340">
+        </figure>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor con-aside">
+        <div>
+          <article aria-label="Formulario de contacto">
+          <form class="formulario" action="#" method="post" autocomplete="on">
+            <fieldset>
+              <legend>Tus datos</legend>
+              <div class="campos">
+                <div class="campo">
+                  <label for="nombre">Nombre completo <abbr title="obligatorio">*</abbr></label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Ej.: Ana María Pérez"
+                         required minlength="3" maxlength="60"
+                         pattern="[A-Za-zÁÉÍÓÚáéíóúÑñÜü ]{3,60}"
+                         title="Solo letras y espacios, entre 3 y 60 caracteres">
+                  <small class="ayuda">Solo letras y espacios (mínimo 3).</small>
+                </div>
+
+                <div class="campo">
+                  <label for="correo">Correo electrónico <abbr title="obligatorio">*</abbr></label>
+                  <input type="email" id="correo" name="correo" placeholder="Ej.: ana@correo.com" required maxlength="80">
+                  <small class="ayuda">Debe tener un formato válido (usuario@dominio.com).</small>
+                </div>
+
+                <div class="campo">
+                  <label for="telefono">Teléfono <abbr title="obligatorio">*</abbr></label>
+                  <input type="tel" id="telefono" name="telefono" placeholder="Ej.: 3001234567" required
+                         pattern="[0-9]{7,10}" title="Solo números, entre 7 y 10 dígitos">
+                  <small class="ayuda">Solo números, de 7 a 10 dígitos.</small>
+                </div>
+
+                <div class="campo">
+                  <label for="edad">Edad <abbr title="obligatorio">*</abbr></label>
+                  <input type="number" id="edad" name="edad" placeholder="Ej.: 21" required min="15" max="99">
+                  <small class="ayuda">Número entre 15 y 99.</small>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Tu consulta</legend>
+              <div class="campos">
+                <div class="campo completo">
+                  <label for="tema">Tema de interés <abbr title="obligatorio">*</abbr></label>
+                  <select id="tema" name="tema" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="predictivo">Análisis predictivo</option>
+                    <option value="prescriptivo">Análisis prescriptivo</option>
+                    <option value="ejemplos">Ejemplos y aplicaciones</option>
+                    <option value="etica">Ética y uso responsable</option>
+                    <option value="otro">Otro tema</option>
+                  </select>
+                </div>
+
+                <div class="campo completo">
+                  <label for="mensaje">Mensaje <abbr title="obligatorio">*</abbr></label>
+                  <textarea id="mensaje" name="mensaje" placeholder="Escribe tu pregunta o comentario..."
+                            required minlength="20" maxlength="500"></textarea>
+                  <small class="ayuda">Entre 20 y 500 caracteres.</small>
+                </div>
+
+                <div class="campo completo">
+                  <label class="casilla" for="acepto">
+                    <input type="checkbox" id="acepto" name="acepto" required>
+                    <span>Acepto que mis datos se guarden únicamente para responder esta consulta. <abbr title="obligatorio">*</abbr></span>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="botones-form">
+              <button class="boton" type="submit">Enviar mensaje</button>
+              <button class="boton secundario" type="reset">Limpiar</button>
+            </div>
+          </form>
+          </article>
+
+          <article class="bloque faq separado" id="preguntas">
+            <h2>Preguntas frecuentes</h2>
+            <details>
+              <summary>¿Necesito saber programar para usar IA predictiva?</summary>
+              <p>No necesariamente. Existen herramientas visuales y plataformas en la nube que permiten crear modelos sencillos sin escribir código, aunque para proyectos avanzados conviene saber estadística y algún lenguaje como Python.</p>
+            </details>
+            <details>
+              <summary>¿La IA prescriptiva reemplaza a las personas?</summary>
+              <p>No. Su función es recomendar opciones. Las personas siguen siendo responsables de revisar esas recomendaciones y de tomar la decisión final, sobre todo cuando afecta a otras personas.</p>
+            </details>
+            <details>
+              <summary>¿Qué datos se necesitan para hacer predicciones?</summary>
+              <p>Datos históricos relacionados con lo que se quiere predecir, en cantidad suficiente y con buena calidad: completos, actualizados y sin errores.</p>
+            </details>
+            <details>
+              <summary>¿Las predicciones siempre aciertan?</summary>
+              <p>No. Un modelo entrega una probabilidad, no una certeza. Por eso se mide su precisión y se actualiza cuando cambian las condiciones.</p>
+            </details>
+          </article>
+        </div>
+
+        <aside class="lateral" aria-label="Otras formas de contacto">
+          <section class="nota">
+            <h3>Síguenos</h3>
+            <p>Compartimos noticias y recursos sobre inteligencia artificial en nuestras redes.</p>
+            <ul class="redes-lista">
+              <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+              <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+          </section>
+
+          <section class="nota cielo">
+            <h3>Antes de escribir</h3>
+            <ul>
+              <li>Revisa las <a href="#preguntas">preguntas frecuentes</a>.</li>
+              <li>Los campos con <strong>*</strong> son obligatorios.</li>
+              <li>Tu mensaje debe tener al menos 20 caracteres.</li>
+            </ul>
+          </section>
+
+          <section class="nota lavanda">
+            <h3>Recursos recomendados</h3>
+            <ul>
+              <li><a href="https://www.ibm.com/think/topics/predictive-analytics" target="_blank" rel="noopener noreferrer">IBM: análisis predictivo</a></li>
+              <li><a href="https://cloud.google.com/learn/what-is-predictive-analytics?hl=es-419" target="_blank" rel="noopener noreferrer">Google Cloud: analítica predictiva</a></li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie-columnas">
+        <section>
+          <a class="marca" href="../index.html">
+            <img src="../img/logo.svg" alt="" width="46" height="46">
+            <div>
+              <strong>AnticipIA</strong>
+              <span>IA predictiva y prescriptiva</span>
+            </div>
+          </a>
+          <p>Sitio informativo sobre cómo la inteligencia artificial ayuda a anticipar resultados y a recomendar mejores decisiones.</p>
+        </section>
+
+        <nav aria-label="Navegación del pie">
+          <h2>Navegación</h2>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="wireframe.html">Wireframe del sitio</a></li>
+          </ul>
+        </nav>
+
+        <section>
+          <h2>Sitios relacionados</h2>
+          <ul>
+            <li><a href="https://www.ibm.com/think/topics/predictive-analytics" target="_blank" rel="noopener noreferrer">IBM: ¿Qué es el análisis predictivo?</a></li>
+            <li><a href="https://cloud.google.com/learn/what-is-predictive-analytics?hl=es-419" target="_blank" rel="noopener noreferrer">Google Cloud: analítica predictiva</a></li>
+            <li><a href="https://www.unesco.org/en/artificial-intelligence/recommendation-ethics" target="_blank" rel="noopener noreferrer">UNESCO: ética de la IA</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Redes sociales</h2>
+          <ul class="redes-lista">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://x.com/" target="_blank" rel="noopener noreferrer">X</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="pie-inferior">
+        <p>&copy; 2026 AnticipIA. Proyecto académico &ndash; Parcial 1.</p>
+        <p>Integrantes: Víctor Lee y Nombre Apellido</p>
+        <p>Técnica de diseño: <a href="wireframe.html">wireframe</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

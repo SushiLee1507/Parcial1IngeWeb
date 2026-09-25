@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="t d">
+  <title id="t">Persona analizando datos</title>
+  <desc id="d">Ilustración de una analista de datos trabajando en su computadora mientras aparecen gráficas y predicciones.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFEFE7"/>
+      <stop offset="1" stop-color="#EDE7FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="420" rx="32" fill="url(#bg)"/>
+  <circle cx="420" cy="90" r="60" fill="#DDF5EC"/>
+  <circle cx="90" cy="100" r="30" fill="#DDEEFF"/>
+
+  <!-- burbujas de datos -->
+  <g>
+    <rect x="300" y="48" width="170" height="96" rx="16" fill="#fff"/>
+    <polyline points="318,120 348,104 378,110 408,84 450,70" fill="none" stroke="#7B61FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="450" cy="70" r="6" fill="#FFB8A3" stroke="#2B2560" stroke-width="2"/>
+    <rect x="318" y="62" width="60" height="8" rx="4" fill="#E4DBFF"/>
+  </g>
+  <g>
+    <rect x="46" y="150" width="130" height="104" rx="16" fill="#fff"/>
+    <circle cx="111" cy="202" r="32" fill="#DDEEFF"/>
+    <path d="M111 202 L111 170 A32 32 0 0 1 141 213 Z" fill="#9FE3CD"/>
+    <path d="M111 202 L141 213 A32 32 0 0 1 96 230 Z" fill="#C9B8FF"/>
+  </g>
+
+  <!-- escritorio -->
+  <rect x="40" y="330" width="440" height="16" rx="8" fill="#2B2560"/>
+  <rect x="80" y="346" width="12" height="54" fill="#2B2560"/>
+  <rect x="428" y="346" width="12" height="54" fill="#2B2560"/>
+
+  <!-- planta -->
+  <rect x="410" y="290" width="40" height="40" rx="8" fill="#FFB8A3"/>
+  <path d="M430 290 C410 260 404 250 414 236 C428 250 432 266 430 290 Z" fill="#6CC3A3"/>
+  <path d="M430 290 C446 262 456 256 464 246 C466 266 452 282 430 290 Z" fill="#9FE3CD"/>
+
+  <!-- persona -->
+  <path d="M190 330 C190 268 212 236 252 236 C292 236 314 268 314 330 Z" fill="#7B61FF"/>
+  <rect x="241" y="214" width="22" height="28" rx="8" fill="#E8B596"/>
+  <circle cx="252" cy="192" r="34" fill="#E8B596"/>
+  <path d="M218 192 C214 152 250 140 272 152 C290 160 292 184 286 200 C282 180 270 170 250 172 C236 174 226 182 222 204 Z" fill="#2B2560"/>
+  <path d="M282 196 C298 220 296 250 282 262 L270 236 Z" fill="#2B2560"/>
+  <circle cx="240" cy="196" r="3" fill="#2B2560"/>
+  <path d="M244 210 Q252 216 260 210" fill="none" stroke="#2B2560" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- laptop -->
+  <path d="M196 262 L322 262 L336 330 L182 330 Z" fill="#DDE3F2"/>
+  <rect x="160" y="324" width="200" height="10" rx="5" fill="#C3CAE0"/>
+  <circle cx="259" cy="296" r="9" fill="#fff"/>
+  <path d="M254 296 L258 300 L265 291" fill="none" stroke="#3E9C7F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

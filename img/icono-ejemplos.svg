@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Icono de ejemplos por sector">
+  <rect width="120" height="120" rx="30" fill="#DDF5EC"/>
+  <!-- salud -->
+  <rect x="22" y="22" width="34" height="34" rx="10" fill="#fff"/>
+  <path d="M39 29 V49 M29 39 H49" stroke="#E07A6A" stroke-width="6" stroke-linecap="round"/>
+  <!-- educacion -->
+  <rect x="64" y="22" width="34" height="34" rx="10" fill="#fff"/>
+  <path d="M68 36 L81 29 L94 36 L81 43 Z" fill="#2B2560"/>
+  <path d="M73 39 V46 Q81 51 89 46 V39" fill="none" stroke="#2B2560" stroke-width="3"/>
+  <!-- negocios -->
+  <rect x="22" y="64" width="34" height="34" rx="10" fill="#fff"/>
+  <rect x="28" y="82" width="6" height="10" rx="1.5" fill="#7B61FF"/>
+  <rect x="36" y="76" width="6" height="16" rx="1.5" fill="#7B61FF"/>
+  <rect x="44" y="70" width="6" height="22" rx="1.5" fill="#7B61FF"/>
+  <!-- transporte -->
+  <rect x="64" y="64" width="34" height="34" rx="10" fill="#fff"/>
+  <rect x="69" y="74" width="24" height="13" rx="4" fill="#3E9C7F"/>
+  <rect x="73" y="70" width="14" height="8" rx="3" fill="#3E9C7F"/>
+  <circle cx="74" cy="89" r="3.5" fill="#2B2560"/>
+  <circle cx="88" cy="89" r="3.5" fill="#2B2560"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Icono de análisis prescriptivo">
+  <rect width="120" height="120" rx="30" fill="#FFE3D6"/>
+  <rect x="57" y="26" width="6" height="70" rx="3" fill="#2B2560"/>
+  <path d="M36 34 L78 34 L90 44 L78 54 L36 54 Z" fill="#fff" stroke="#2B2560" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M84 62 L42 62 L30 72 L42 82 L84 82 Z" fill="#fff" stroke="#2B2560" stroke-width="4" stroke-linejoin="round" opacity=".55"/>
+  <path d="M51 44 L57 50 L68 38" fill="none" stroke="#3E9C7F" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="44" y="94" width="32" height="6" rx="3" fill="#2B2560"/>
+</svg>

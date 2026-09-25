@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Icono de análisis predictivo">
+  <rect width="120" height="120" rx="30" fill="#E4DBFF"/>
+  <path d="M24 92 L96 92" stroke="#2B2560" stroke-width="4" stroke-linecap="round"/>
+  <polyline points="26,80 42,70 56,74 64,60" fill="none" stroke="#2B2560" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="64,60 80,50 96,32" fill="none" stroke="#7B61FF" stroke-width="5" stroke-dasharray="6 7" stroke-linecap="round"/>
+  <circle cx="64" cy="60" r="6" fill="#FFB8A3" stroke="#2B2560" stroke-width="3"/>
+</svg>

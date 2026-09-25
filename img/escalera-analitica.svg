@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="t d">
+  <title id="t">Los cuatro niveles de la analítica de datos</title>
+  <desc id="d">Escalera ascendente: analítica descriptiva, diagnóstica, predictiva y prescriptiva. A mayor nivel, mayor dificultad y mayor valor para la toma de decisiones.</desc>
+  <rect width="760" height="400" rx="28" fill="#FBFAFF"/>
+  <!-- ejes -->
+  <g stroke="#2B2560" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M60 350 L720 350"/>
+    <path d="M60 350 L60 40"/>
+    <path d="M712 343 L720 350 L712 357"/>
+    <path d="M53 48 L60 40 L67 48"/>
+  </g>
+  <text x="690" y="378" text-anchor="end" font-family="Poppins, Arial, sans-serif" font-size="13" fill="#6B6890">Dificultad</text>
+  <text x="36" y="200" text-anchor="middle" transform="rotate(-90 36 200)" font-family="Poppins, Arial, sans-serif" font-size="13" fill="#6B6890">Valor para decidir</text>
+
+  <g font-family="Poppins, Arial, sans-serif">
+    <rect x="80" y="270" width="150" height="80" rx="14" fill="#DDEEFF"/>
+    <text x="155" y="302" text-anchor="middle" font-size="16" font-weight="700" fill="#2B2560">Descriptiva</text>
+    <text x="155" y="324" text-anchor="middle" font-size="13" fill="#2B2560">¿Qué pasó?</text>
+
+    <rect x="240" y="205" width="150" height="145" rx="14" fill="#DDF5EC"/>
+    <text x="315" y="237" text-anchor="middle" font-size="16" font-weight="700" fill="#2B2560">Diagnóstica</text>
+    <text x="315" y="259" text-anchor="middle" font-size="13" fill="#2B2560">¿Por qué pasó?</text>
+
+    <rect x="400" y="140" width="150" height="210" rx="14" fill="#E4DBFF"/>
+    <text x="475" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="#2B2560">Predictiva</text>
+    <text x="475" y="194" text-anchor="middle" font-size="13" fill="#2B2560">¿Qué pasará?</text>
+
+    <rect x="560" y="75" width="150" height="275" rx="14" fill="#FFE3D6"/>
+    <text x="635" y="107" text-anchor="middle" font-size="16" font-weight="700" fill="#2B2560">Prescriptiva</text>
+    <text x="635" y="129" text-anchor="middle" font-size="13" fill="#2B2560">¿Qué debemos</text>
+    <text x="635" y="146" text-anchor="middle" font-size="13" fill="#2B2560">hacer?</text>
+  </g>
+  <!-- marca de IA en los dos niveles superiores -->
+  <g font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="700">
+    <rect x="435" y="300" width="80" height="28" rx="14" fill="#7B61FF"/>
+    <text x="475" y="319" text-anchor="middle" fill="#fff">IA / ML</text>
+    <rect x="595" y="300" width="80" height="28" rx="14" fill="#7B61FF"/>
+    <text x="635" y="319" text-anchor="middle" fill="#fff">IA / ML</text>
+  </g>
+</svg>

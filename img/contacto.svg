@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" role="img" aria-labelledby="t d">
+  <title id="t">Ilustración de contacto</title>
+  <desc id="d">Un sobre de correo y burbujas de conversación que representan el envío de preguntas.</desc>
+  <rect width="520" height="340" rx="32" fill="#FFFFFF" opacity=".6"/>
+  <circle cx="440" cy="70" r="44" fill="#DDF5EC"/>
+  <circle cx="80" cy="280" r="34" fill="#DDEEFF"/>
+  <!-- sobre -->
+  <g transform="rotate(-6 220 190)">
+    <rect x="90" y="110" width="260" height="170" rx="18" fill="#fff" stroke="#2B2560" stroke-width="4"/>
+    <path d="M94 124 L220 210 L346 124" fill="none" stroke="#2B2560" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M94 270 L180 186 M346 270 L260 186" stroke="#C9C4E6" stroke-width="3"/>
+    <circle cx="220" cy="210" r="16" fill="#FFB8A3" stroke="#2B2560" stroke-width="3"/>
+  </g>
+  <!-- burbuja 1 -->
+  <rect x="300" y="40" width="170" height="74" rx="20" fill="#E4DBFF"/>
+  <path d="M330 114 L322 136 L350 114 Z" fill="#E4DBFF"/>
+  <rect x="320" y="60" width="110" height="10" rx="5" fill="#2B2560" opacity=".8"/>
+  <rect x="320" y="80" width="80" height="10" rx="5" fill="#7B61FF"/>
+  <!-- burbuja 2 -->
+  <rect x="340" y="200" width="150" height="66" rx="20" fill="#DDF5EC"/>
+  <path d="M460 266 L470 288 L440 266 Z" fill="#DDF5EC"/>
+  <path d="M378 234 L392 248 L418 220" fill="none" stroke="#2F8A6E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="428" y="240" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="700" fill="#2B2560">¡Listo!</text>
+  <!-- puntos -->
+  <circle cx="70" cy="70" r="8" fill="#FFB8A3"/>
+  <circle cx="98" cy="54" r="5" fill="#C9B8FF"/>
+</svg>
